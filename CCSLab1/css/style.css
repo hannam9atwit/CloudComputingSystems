@@ -1,0 +1,516 @@
+/* Global Styles (Applied to Index Page) */
+body.index {
+  position: relative;
+  width: 100%;
+  height: 98vh;
+  background-image: url("img/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Book Text Container Styles */
+.book-text-index {
+  position: absolute;
+  top: 15%;
+  left: 26%;
+  width: 48%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Button Styles */
+button {
+  background-color: cadetblue;
+  color: white;
+  font-size: 60px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: teal;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Heading Styles */
+.h1-index {
+  color: cadetblue;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+}
+
+.h2-index {
+  font-size: 78px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  color: cadetblue;
+}
+
+/* Image Styles */
+a img {
+  width: 250px;
+  border-radius: 12px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+a img:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+a img:active {
+  opacity: 0.5;
+  transform: scale(0.95);
+}
+
+body.body-recipe1 {
+  /* Allows precise positioning for elements */
+  position: relative;
+
+  /* Adjusts vertical background position */
+  background-position-y: 100%;
+
+  /* Makes the page full width */
+  width: 100%;
+
+  /* Controls the height to fit nearly the entire screen */
+  height: 135vh;
+
+  /* Sets background image */
+  background-image: url("img/background.jpg");
+
+  /* Ensures the background fully covers the page */
+  background-size: 100% 100%;
+
+  /* Prevents repeating the background */
+  background-repeat: no-repeat;
+
+  /* Centers the background image */
+  background-position: center;
+}
+
+/* Defines styles for the title container */
+.title-container-recipe1 {
+  /* Enables flexible layout */
+  display: flex;
+
+  /* Aligns items in the center */
+  align-items: center;
+
+  /* Spaces items evenly */
+  justify-content: space-between;
+
+  /* Adds gap between elements */
+  gap: 10px;
+
+  /* Sets the background color with transparency */
+  background-color: rgba(0, 0, 2, 0.5);
+
+  /* Rounds specific corners */
+  border-radius: 50% 20% / 10% 40%;
+
+  /* Defines container width */
+  width: 55%;
+
+  /* Adds internal spacing */
+  padding: 20px;
+
+  /* Allows absolute positioning */
+  position: absolute;
+
+  /* Adjusts vertical placement */
+  top: 13%;
+
+  /* Centers container horizontally */
+  left: 50%;
+
+  /* Ensures proper centering */
+  transform: translateX(-50%);
+}
+
+/* Styles images inside the title container */
+.title-container-recipe1 img {
+  /* Adjusts image size */
+  width: 200px;
+
+  /* Rounds image corners */
+  border-radius: 15px;
+}
+
+/* Styles for the home button */
+.home-button {
+  /* Defines button width */
+  width: 250px;
+
+  /* Adds left padding */
+  padding-left: 50px;
+
+  /* Adds top padding */
+  padding-top: 50px;
+
+  /* Maintains auto height */
+  height: auto;
+
+  /* Enables smooth transition effects */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+  /* Sets cursor style */
+  cursor: pointer;
+}
+
+/* Hover Effect - Slight Glow */
+.home-button:hover {
+  /* Enlarges button slightly */
+  transform: scale(1.1);
+
+  /* Lowers opacity slightly */
+  opacity: 0.8;
+}
+
+/* Click Effect - Pressed Feel */
+.home-button:active {
+  /* Shrinks button slightly */
+  transform: scale(0.95);
+}
+
+/* Defines styles for the recipe container */
+.recipe-container-recipe1 {
+  /* Adds space below the title */
+  margin-top: 110px;
+
+  /* Aligns text to the left */
+  text-align: left;
+
+  /* Sets text color */
+  color: cadetblue;
+
+  /* Adds internal spacing */
+  padding: 30px;
+
+  /* Sets background color */
+  background-color: #c9eeff;
+
+  /* Rounds the container edges */
+  border-radius: 10% / 50%;
+
+  /* Defines container width */
+  width: 55%;
+
+  /* Centers the container */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Ensures text wraps correctly */
+  word-wrap: break-word;
+
+  /* Hides overflowing content */
+  overflow: hidden;
+
+  /* Enables flexible layout */
+  display: flex;
+
+  /* Aligns content vertically */
+  flex-direction: column;
+
+  /* Aligns items to start */
+  align-items: flex-start;
+
+  /* Ensures proper box sizing */
+  box-sizing: border-box;
+  height: 650px;
+}
+
+/* Styles text elements inside the recipe container */
+.recipe-container-recipe1 h2,
+.recipe-container-recipe1 p,
+.recipe-container-recipe1 ul,
+.recipe-container-recipe1 ol {
+  /* Adds left padding */
+  padding-left: 46px;
+
+  /* Indents the first line */
+  text-indent: 10px;
+
+  /* Adds extra spacing */
+  margin: 5px 10px;
+
+  /* Sets maximum width */
+  max-width: 95%;
+
+  /* Ensures text remains inside container */
+  white-space: normal;
+}
+
+/* Defines styles for the video container */
+.video-container {
+  /* Sets the width of the video container */
+  width: 300px;
+}
+
+/* Styles for embedded video */
+.video-container iframe {
+  /* Defines full width */
+  width: 100%;
+
+  /* Sets height */
+  height: 180px;
+
+  /* Rounds corners */
+  border-radius: 12px;
+}
+
+/* Styles for the main heading */
+.h1-recipe1 {
+  /* Defines font size */
+  font-size: 76px;
+
+  /* Sets text color */
+  color: cadetblue;
+
+  /* Adds text shadow */
+  text-shadow: 2px 2px 4px #000;
+
+  /* Adjusts line height */
+  line-height: 80px;
+
+  /* Sets bottom margin */
+  margin-bottom: -10px;
+}
+
+/* Styles for paragraph text */
+.p-recipe1 {
+  /* Defines font size */
+  font-size: 20px;
+
+  /* Sets line height */
+  line-height: 26px;
+
+  /* Adds bottom margin */
+  margin-bottom: 5px;
+}
+
+/* Global Styles (Applied to Recipe2 Page) */
+body.recipe2 {
+  position: relative;
+  width: 100%;
+  height: 135vh;
+  background-image: url("img/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Title Container Styles
+   =============================== */
+.title-container-recipe2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50% 20% / 10% 40%;
+  width: 55%;
+  padding: 20px;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Title Container Images */
+.title-container-recipe2 img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+/* ===============================
+   Home Button Styles
+   =============================== */
+.home-button {
+  width: 250px;
+  padding-left: 50px;
+  padding-top: 50px;
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.home-button:active {
+  transform: scale(0.95);
+}
+
+/* ===============================
+   Recipe Container Styles
+   =============================== */
+.recipe-container-recipe2 {
+  margin-top: 110px;
+  text-align: left;
+  color: cadetblue;
+  padding: 20px;
+  background-color: #c9eeff;
+  border-radius: 10% / 50%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* Text Inside Recipe Container */
+.recipe-container-recipe2 h2,
+.recipe-container-recipe2 p,
+.recipe-container-recipe2 ul,
+.recipe-container-recipe2 ol {
+  padding-left: 46px;
+  text-indent: 10px;
+  margin: 5px 10px;
+  max-width: 95%;
+  white-space: normal;
+}
+
+/* ===============================
+   Video Container Styles
+   =============================== */
+.video-container {
+  width: 300px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+}
+
+/* ===============================
+   Heading & Text Styles
+   =============================== */
+.h1-recipe2 {
+  font-size: 76px;
+  color: cadetblue;
+  text-shadow: 2px 2px 4px #000;
+  line-height: 80px;
+  margin-bottom: -10px;
+}
+
+.recipe-container-recipe2 p {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+body.about-page {
+  position: relative;
+  width: 100vw;
+  height: 115vh;
+  background-image: url("img/Ween_Background.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Title Section Styles
+   =============================== */
+.title-container-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 2, 0.5);
+  border-radius: 50% / 40%;
+  width: 55%;
+  padding: 20px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title-container-about img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.h1-about {
+  font-size: 76px;
+  color: cadetblue;
+  text-shadow: 2px 2px 4px #000;
+  line-height: 80px;
+  margin-bottom: -10px;
+}
+
+/* ===============================
+   About Page Content Styles
+   =============================== */
+.about-container {
+  margin-top: 50px;
+  text-align: left;
+  color: cadetblue;
+  padding: 30px;
+  background-color: #c9eeff;
+  border-radius: 10% / 10%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* Text Styling */
+.about-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+/* List Styling */
+.about-list {
+  padding-left: 46px;
+  text-indent: 10px;
+  margin: 6px 20px;
+  max-width: 95%;
+  white-space: normal;
+}
